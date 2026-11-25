@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> bbe357fb236bcc0545f3e7f25eaefc90da8a99ae
 🚚 HUBTECH – Sistema de Integração e Gestão de Dados
 
 Protótipo desenvolvido para a Rodomax Transportes na disciplina de Data Science e Inteligência Artificial (Tecnologia em Análise e Desenvolvimento de Sistemas – Univel, 4º período).
@@ -105,4 +109,8 @@ Protótipo desenvolvido para a Rodomax Transportes na disciplina de Data Science
 🗂️ CRM de demandas: funil de status (Nova → Em análise → Aguardando motorista → Em transporte → Entregue/ Cancelada), quadro Kanban, prioridade automática por prazo, responsável e histórico.
 🕘 Histórico: importações realizadas e a lista de registros rejeitados e duplicados, com o motivo.
 Painel com indicadores, base de demandas com busca e exportação, login (bcrypt), perfis admin/operador e log de auditoria.
+<<<<<<< HEAD
 e5aecb8912449487269c1ebe133df15ac0655433
+=======
+>>>>>>> e5aecb8912449487269c1ebe133df15ac0655433
+>>>>>>> bbe357fb236bcc0545f3e7f25eaefc90da8a99ae
