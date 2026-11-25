@@ -1,0 +1,15 @@
+# segredos (NUNCA suba o .env: ele tem a senha do banco)
+.env
+
+# ambiente e cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# editores / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,793 @@
+{
+  "_info": "Mensagens SIMULADAS (escritas pelo grupo) para avaliar a extracao. Cada item tem o texto e o gabarito. data_referencia e a data em que a mensagem 'chegou' (segunda-feira), usada para resolver 'sexta', 'amanha' etc.",
+  "data_referencia": "2026-11-23",
+  "mensagens": [
+    {
+      "id": 1,
+      "nivel": "facil",
+      "texto": "Produto: Soja\nOrigem: Cascavel\nDestino: Paranaguá\nPeso: 28 t\nPrazo: 25/11/2026\nFrete: R$ 9.800,00",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Cascavel",
+        "destino": "Paranaguá",
+        "peso_ton": 28,
+        "prazo": "2026-11-25",
+        "frete": 9800
+      }
+    },
+    {
+      "id": 2,
+      "nivel": "facil",
+      "texto": "Produto: Milho\nOrigem: Toledo\nDestino: Maringá\nPeso: 30000 kg\nPrazo: 28/11/2026",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Toledo",
+        "destino": "Maringá",
+        "peso_ton": 30,
+        "prazo": "2026-11-28",
+        "frete": null
+      }
+    },
+    {
+      "id": 3,
+      "nivel": "facil",
+      "texto": "Carga: Trigo\nOrigem: Cascavel\nDestino: Ponta Grossa\nPeso: 25\nPrazo: 30/11/2026\nValor: R$ 7.500,00",
+      "gabarito": {
+        "produto": "Trigo",
+        "origem": "Cascavel",
+        "destino": "Ponta Grossa",
+        "peso_ton": 25,
+        "prazo": "2026-11-30",
+        "frete": 7500
+      }
+    },
+    {
+      "id": 4,
+      "nivel": "facil",
+      "texto": "Mercadoria: Fertilizante\nColeta: Londrina\nEntrega: Curitiba\nPeso: 32 toneladas\nData: 02/12/2026\nFrete: 11.200",
+      "gabarito": {
+        "produto": "Fertilizante",
+        "origem": "Londrina",
+        "destino": "Curitiba",
+        "peso_ton": 32,
+        "prazo": "2026-12-02",
+        "frete": 11200
+      }
+    },
+    {
+      "id": 5,
+      "nivel": "facil",
+      "texto": "Produto: Soja\nOrigem: Sorriso\nDestino: Paranaguá\nPeso: 35 t\nPrazo: 01/12/2026\nFrete: R$ 18.000,00",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Sorriso",
+        "destino": "Paranaguá",
+        "peso_ton": 35,
+        "prazo": "2026-12-01",
+        "frete": 18000
+      }
+    },
+    {
+      "id": 6,
+      "nivel": "facil",
+      "texto": "Produto: Açúcar\nOrigem: Maringá\nDestino: Santos\nPeso: 27 t\nPrazo: 29/11/2026",
+      "gabarito": {
+        "produto": "Açúcar",
+        "origem": "Maringá",
+        "destino": "Santos",
+        "peso_ton": 27,
+        "prazo": "2026-11-29",
+        "frete": null
+      }
+    },
+    {
+      "id": 7,
+      "nivel": "facil",
+      "texto": "Produto: Café\nOrigem: Londrina\nDestino: Paranaguá\nPeso: 20 t\nPrazo: 26/11/2026\nFrete: R$ 6.400,00",
+      "gabarito": {
+        "produto": "Café",
+        "origem": "Londrina",
+        "destino": "Paranaguá",
+        "peso_ton": 20,
+        "prazo": "2026-11-26",
+        "frete": 6400
+      }
+    },
+    {
+      "id": 8,
+      "nivel": "facil",
+      "texto": "Produto: Farelo de Soja\nOrigem: Cascavel\nDestino: Foz do Iguaçu\nPeso: 30 t\nPrazo: 27/11/2026\nFrete: R$ 4.900,00",
+      "gabarito": {
+        "produto": "Farelo de Soja",
+        "origem": "Cascavel",
+        "destino": "Foz do Iguaçu",
+        "peso_ton": 30,
+        "prazo": "2026-11-27",
+        "frete": 4900
+      }
+    },
+    {
+      "id": 9,
+      "nivel": "medio",
+      "texto": "Preciso levar 28 toneladas de soja de Cascavel para Paranaguá até 25/11/2026, frete R$ 9.800,00",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Cascavel",
+        "destino": "Paranaguá",
+        "peso_ton": 28,
+        "prazo": "2026-11-25",
+        "frete": 9800
+      }
+    },
+    {
+      "id": 10,
+      "nivel": "medio",
+      "texto": "Bom dia! Tenho 30 toneladas de milho saindo de Toledo para Maringá, prazo 28/11/2026. Frete R$ 5.600,00",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Toledo",
+        "destino": "Maringá",
+        "peso_ton": 30,
+        "prazo": "2026-11-28",
+        "frete": 5600
+      }
+    },
+    {
+      "id": 11,
+      "nivel": "medio",
+      "texto": "Preciso transportar 25 toneladas de trigo de Cascavel para Ponta Grossa até 30/11/2026",
+      "gabarito": {
+        "produto": "Trigo",
+        "origem": "Cascavel",
+        "destino": "Ponta Grossa",
+        "peso_ton": 25,
+        "prazo": "2026-11-30",
+        "frete": null
+      }
+    },
+    {
+      "id": 12,
+      "nivel": "medio",
+      "texto": "Pessoal, preciso de caminhão pra levar 32 toneladas de fertilizante de Londrina para Curitiba até 02/12/2026, pago R$ 11.200,00",
+      "gabarito": {
+        "produto": "Fertilizante",
+        "origem": "Londrina",
+        "destino": "Curitiba",
+        "peso_ton": 32,
+        "prazo": "2026-12-02",
+        "frete": 11200
+      }
+    },
+    {
+      "id": 13,
+      "nivel": "medio",
+      "texto": "Olá, gostaria de cotar o frete de 27 toneladas de açúcar de Maringá para Santos, entrega até 29/11/2026",
+      "gabarito": {
+        "produto": "Açúcar",
+        "origem": "Maringá",
+        "destino": "Santos",
+        "peso_ton": 27,
+        "prazo": "2026-11-29",
+        "frete": null
+      }
+    },
+    {
+      "id": 14,
+      "nivel": "medio",
+      "texto": "Tenho 20 t de café em Londrina para levar a Paranaguá até 26/11/2026",
+      "gabarito": {
+        "produto": "Café",
+        "origem": "Londrina",
+        "destino": "Paranaguá",
+        "peso_ton": 20,
+        "prazo": "2026-11-26",
+        "frete": null
+      }
+    },
+    {
+      "id": 15,
+      "nivel": "medio",
+      "texto": "Carga de 30 toneladas de milho, de Foz do Iguaçu para Curitiba, prazo 27/11/2026, valor R$ 11.200,00",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Foz do Iguaçu",
+        "destino": "Curitiba",
+        "peso_ton": 30,
+        "prazo": "2026-11-27",
+        "frete": 11200
+      }
+    },
+    {
+      "id": 16,
+      "nivel": "medio",
+      "texto": "Preciso levar 35 toneladas de soja de Sorriso para Paranaguá até 01/12/2026, frete R$ 18.000,00",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Sorriso",
+        "destino": "Paranaguá",
+        "peso_ton": 35,
+        "prazo": "2026-12-01",
+        "frete": 18000
+      }
+    },
+    {
+      "id": 17,
+      "nivel": "medio",
+      "texto": "Frete de 22 toneladas de arroz de Pelotas para Porto Alegre até 30/11/2026, R$ 3.900,00",
+      "gabarito": {
+        "produto": "Arroz",
+        "origem": "Pelotas",
+        "destino": "Porto Alegre",
+        "peso_ton": 22,
+        "prazo": "2026-11-30",
+        "frete": 3900
+      }
+    },
+    {
+      "id": 18,
+      "nivel": "medio",
+      "texto": "Boa tarde, preciso enviar 18 toneladas de cimento de Curitiba para Joinville até 28/11/2026",
+      "gabarito": {
+        "produto": "Cimento",
+        "origem": "Curitiba",
+        "destino": "Joinville",
+        "peso_ton": 18,
+        "prazo": "2026-11-28",
+        "frete": null
+      }
+    },
+    {
+      "id": 19,
+      "nivel": "medio",
+      "texto": "Preciso levar 40 toneladas de calcário de Ponta Grossa para Guarapuava até 01/12/2026, frete R$ 5.200,00",
+      "gabarito": {
+        "produto": "Calcário",
+        "origem": "Ponta Grossa",
+        "destino": "Guarapuava",
+        "peso_ton": 40,
+        "prazo": "2026-12-01",
+        "frete": 5200
+      }
+    },
+    {
+      "id": 20,
+      "nivel": "medio",
+      "texto": "Levar 15 toneladas de madeira de Guarapuava para Curitiba até 27/11/2026",
+      "gabarito": {
+        "produto": "Madeira",
+        "origem": "Guarapuava",
+        "destino": "Curitiba",
+        "peso_ton": 15,
+        "prazo": "2026-11-27",
+        "frete": null
+      }
+    },
+    {
+      "id": 21,
+      "nivel": "dificil",
+      "tipo": "prazo relativo",
+      "texto": "Preciso levar 28 toneladas de soja de Cascavel para Paranaguá até sexta",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Cascavel",
+        "destino": "Paranaguá",
+        "peso_ton": 28,
+        "prazo": "2026-11-27",
+        "frete": null
+      }
+    },
+    {
+      "id": 22,
+      "nivel": "dificil",
+      "tipo": "prazo relativo",
+      "texto": "Tenho 30 toneladas de milho de Toledo para Maringá pra amanhã",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Toledo",
+        "destino": "Maringá",
+        "peso_ton": 30,
+        "prazo": "2026-11-24",
+        "frete": null
+      }
+    },
+    {
+      "id": 23,
+      "nivel": "dificil",
+      "tipo": "prazo relativo",
+      "texto": "Preciso de caminhão pra 25 toneladas de trigo de Cascavel para Ponta Grossa no começo da semana que vem",
+      "gabarito": {
+        "produto": "Trigo",
+        "origem": "Cascavel",
+        "destino": "Ponta Grossa",
+        "peso_ton": 25,
+        "prazo": "2026-11-30",
+        "frete": null
+      }
+    },
+    {
+      "id": 24,
+      "nivel": "dificil",
+      "tipo": "prazo relativo",
+      "texto": "Levar 32 toneladas de fertilizante de Londrina para Curitiba até dia 28",
+      "gabarito": {
+        "produto": "Fertilizante",
+        "origem": "Londrina",
+        "destino": "Curitiba",
+        "peso_ton": 32,
+        "prazo": "2026-11-28",
+        "frete": null
+      }
+    },
+    {
+      "id": 25,
+      "nivel": "dificil",
+      "tipo": "prazo relativo",
+      "texto": "27 toneladas de açúcar de Maringá para Santos até o fim do mês",
+      "gabarito": {
+        "produto": "Açúcar",
+        "origem": "Maringá",
+        "destino": "Santos",
+        "peso_ton": 27,
+        "prazo": "2026-11-30",
+        "frete": null
+      }
+    },
+    {
+      "id": 26,
+      "nivel": "dificil",
+      "tipo": "prazo relativo",
+      "texto": "Preciso mandar 20 toneladas de café de Londrina para Paranaguá até quarta",
+      "gabarito": {
+        "produto": "Café",
+        "origem": "Londrina",
+        "destino": "Paranaguá",
+        "peso_ton": 20,
+        "prazo": "2026-11-25",
+        "frete": null
+      }
+    },
+    {
+      "id": 27,
+      "nivel": "dificil",
+      "tipo": "prazo relativo",
+      "texto": "Carga urgente: 30 toneladas de milho de Foz do Iguaçu para Curitiba, precisa chegar até sábado",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Foz do Iguaçu",
+        "destino": "Curitiba",
+        "peso_ton": 30,
+        "prazo": "2026-11-28",
+        "frete": null
+      }
+    },
+    {
+      "id": 28,
+      "nivel": "dificil",
+      "tipo": "prazo relativo",
+      "texto": "Levar 35 toneladas de soja de Sorriso para Paranaguá na próxima segunda",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Sorriso",
+        "destino": "Paranaguá",
+        "peso_ton": 35,
+        "prazo": "2026-11-30",
+        "frete": null
+      }
+    },
+    {
+      "id": 29,
+      "nivel": "dificil",
+      "tipo": "prazo relativo",
+      "texto": "22 toneladas de arroz de Pelotas para Porto Alegre, entrega em 3 dias",
+      "gabarito": {
+        "produto": "Arroz",
+        "origem": "Pelotas",
+        "destino": "Porto Alegre",
+        "peso_ton": 22,
+        "prazo": "2026-11-26",
+        "frete": null
+      }
+    },
+    {
+      "id": 30,
+      "nivel": "medio",
+      "tipo": "prazo sem ano",
+      "texto": "18 toneladas de cimento de Curitiba para Joinville até 28/11",
+      "gabarito": {
+        "produto": "Cimento",
+        "origem": "Curitiba",
+        "destino": "Joinville",
+        "peso_ton": 18,
+        "prazo": "2026-11-28",
+        "frete": null
+      }
+    },
+    {
+      "id": 31,
+      "nivel": "dificil",
+      "tipo": "frete informal",
+      "texto": "Preciso levar 28 toneladas de soja de Cascavel para Paranaguá até 25/11/2026, uns 10 mil de frete",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Cascavel",
+        "destino": "Paranaguá",
+        "peso_ton": 28,
+        "prazo": "2026-11-25",
+        "frete": 10000
+      }
+    },
+    {
+      "id": 32,
+      "nivel": "dificil",
+      "tipo": "frete informal",
+      "texto": "30 toneladas de milho de Toledo para Maringá até 28/11/2026, pago 6k",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Toledo",
+        "destino": "Maringá",
+        "peso_ton": 30,
+        "prazo": "2026-11-28",
+        "frete": 6000
+      }
+    },
+    {
+      "id": 33,
+      "nivel": "dificil",
+      "tipo": "frete informal",
+      "texto": "25 toneladas de trigo de Cascavel para Ponta Grossa até 30/11/2026, frete a combinar",
+      "gabarito": {
+        "produto": "Trigo",
+        "origem": "Cascavel",
+        "destino": "Ponta Grossa",
+        "peso_ton": 25,
+        "prazo": "2026-11-30",
+        "frete": null
+      }
+    },
+    {
+      "id": 34,
+      "nivel": "dificil",
+      "tipo": "frete informal",
+      "texto": "32 toneladas de fertilizante de Londrina para Curitiba até 02/12/2026, valor em torno de 11 mil",
+      "gabarito": {
+        "produto": "Fertilizante",
+        "origem": "Londrina",
+        "destino": "Curitiba",
+        "peso_ton": 32,
+        "prazo": "2026-12-02",
+        "frete": 11000
+      }
+    },
+    {
+      "id": 35,
+      "nivel": "dificil",
+      "tipo": "frete informal",
+      "texto": "27 toneladas de açúcar de Maringá para Santos até 29/11/2026 por R$ 8,5 mil",
+      "gabarito": {
+        "produto": "Açúcar",
+        "origem": "Maringá",
+        "destino": "Santos",
+        "peso_ton": 27,
+        "prazo": "2026-11-29",
+        "frete": 8500
+      }
+    },
+    {
+      "id": 36,
+      "nivel": "dificil",
+      "tipo": "frete informal",
+      "texto": "20 toneladas de café de Londrina para Paranaguá até 26/11/2026, ofereço 6.400 reais",
+      "gabarito": {
+        "produto": "Café",
+        "origem": "Londrina",
+        "destino": "Paranaguá",
+        "peso_ton": 20,
+        "prazo": "2026-11-26",
+        "frete": 6400
+      }
+    },
+    {
+      "id": 37,
+      "nivel": "dificil",
+      "tipo": "peso informal",
+      "texto": "Preciso levar uns 30 mil quilos de milho de Toledo para Maringá até 28/11/2026",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Toledo",
+        "destino": "Maringá",
+        "peso_ton": 30,
+        "prazo": "2026-11-28",
+        "frete": null
+      }
+    },
+    {
+      "id": 38,
+      "nivel": "dificil",
+      "tipo": "frete informal",
+      "texto": "35 toneladas de soja de Sorriso para Paranaguá até 01/12/2026, R$18000",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Sorriso",
+        "destino": "Paranaguá",
+        "peso_ton": 35,
+        "prazo": "2026-12-01",
+        "frete": 18000
+      }
+    },
+    {
+      "id": 39,
+      "nivel": "dificil",
+      "tipo": "formato livre",
+      "texto": "Carreta de 28 ton de soja, Cascavel x Paranaguá, até 25/11/2026",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Cascavel",
+        "destino": "Paranaguá",
+        "peso_ton": 28,
+        "prazo": "2026-11-25",
+        "frete": null
+      }
+    },
+    {
+      "id": 40,
+      "nivel": "dificil",
+      "tipo": "formato livre",
+      "texto": "Soja 28t Cascavel > Paranaguá 25/11/2026 R$ 9.800",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Cascavel",
+        "destino": "Paranaguá",
+        "peso_ton": 28,
+        "prazo": "2026-11-25",
+        "frete": 9800
+      }
+    },
+    {
+      "id": 41,
+      "nivel": "medio",
+      "tipo": "peso informal",
+      "texto": "Preciso levar 12500 kg de adubo de Cascavel para Toledo até 27/11/2026",
+      "gabarito": {
+        "produto": "Adubo",
+        "origem": "Cascavel",
+        "destino": "Toledo",
+        "peso_ton": 12.5,
+        "prazo": "2026-11-27",
+        "frete": null
+      }
+    },
+    {
+      "id": 42,
+      "nivel": "medio",
+      "tipo": "peso informal",
+      "texto": "Levar 1,5 toneladas de sementes de Cascavel para Toledo até 26/11/2026",
+      "gabarito": {
+        "produto": "Sementes",
+        "origem": "Cascavel",
+        "destino": "Toledo",
+        "peso_ton": 1.5,
+        "prazo": "2026-11-26",
+        "frete": null
+      }
+    },
+    {
+      "id": 43,
+      "nivel": "dificil",
+      "tipo": "peso informal",
+      "texto": "vinte toneladas de milho de Toledo para Cascavel até 27/11/2026",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Toledo",
+        "destino": "Cascavel",
+        "peso_ton": 20,
+        "prazo": "2026-11-27",
+        "frete": null
+      }
+    },
+    {
+      "id": 44,
+      "nivel": "dificil",
+      "tipo": "cidade com UF",
+      "texto": "Preciso levar 28 toneladas de soja de Cascavel/PR para Paranaguá/PR até 25/11/2026",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Cascavel",
+        "destino": "Paranaguá",
+        "peso_ton": 28,
+        "prazo": "2026-11-25",
+        "frete": null
+      }
+    },
+    {
+      "id": 45,
+      "nivel": "dificil",
+      "tipo": "sem maiuscula",
+      "texto": "preciso levar 28 toneladas de soja de cascavel para paranagua ate 25/11/2026",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Cascavel",
+        "destino": "Paranaguá",
+        "peso_ton": 28,
+        "prazo": "2026-11-25",
+        "frete": null
+      }
+    },
+    {
+      "id": 46,
+      "nivel": "dificil",
+      "tipo": "formato livre",
+      "texto": "Boa noite. Tem carga de 30 toneladas de milho saindo de Toledo com destino a Maringá, prazo 28/11/2026",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Toledo",
+        "destino": "Maringá",
+        "peso_ton": 30,
+        "prazo": "2026-11-28",
+        "frete": null
+      }
+    },
+    {
+      "id": 47,
+      "nivel": "medio",
+      "tipo": "formato livre",
+      "texto": "Coleta em Cascavel, entrega em Paranaguá, 28 toneladas de soja, até 25/11/2026, frete R$ 9.800,00",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Cascavel",
+        "destino": "Paranaguá",
+        "peso_ton": 28,
+        "prazo": "2026-11-25",
+        "frete": 9800
+      }
+    },
+    {
+      "id": 48,
+      "nivel": "dificil",
+      "tipo": "formato livre",
+      "texto": "Origem Cascavel destino Ponta Grossa trigo 25 toneladas prazo 30/11/2026",
+      "gabarito": {
+        "produto": "Trigo",
+        "origem": "Cascavel",
+        "destino": "Ponta Grossa",
+        "peso_ton": 25,
+        "prazo": "2026-11-30",
+        "frete": null
+      }
+    },
+    {
+      "id": 49,
+      "nivel": "dificil",
+      "tipo": "formato livre",
+      "texto": "Retirar 30 toneladas de milho em Toledo e entregar em Maringá até 28/11/2026",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Toledo",
+        "destino": "Maringá",
+        "peso_ton": 30,
+        "prazo": "2026-11-28",
+        "frete": null
+      }
+    },
+    {
+      "id": 50,
+      "nivel": "medio",
+      "texto": "Olá! Preciso transportar 24 toneladas de soja de Campo Mourão para Paranaguá até 03/12/2026. Qual o valor do frete?",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Campo Mourão",
+        "destino": "Paranaguá",
+        "peso_ton": 24,
+        "prazo": "2026-12-03",
+        "frete": null
+      }
+    },
+    {
+      "id": 51,
+      "nivel": "medio",
+      "texto": "Preciso levar 28 toneladas de soja de Nova Santa Rosa para Paranaguá até 25/11/2026",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Nova Santa Rosa",
+        "destino": "Paranaguá",
+        "peso_ton": 28,
+        "prazo": "2026-11-25",
+        "frete": null
+      }
+    },
+    {
+      "id": 52,
+      "nivel": "medio",
+      "texto": "Tenho 30 toneladas de milho de Cafelândia para Cascavel até 28/11/2026, frete R$ 2.800,00",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Cafelândia",
+        "destino": "Cascavel",
+        "peso_ton": 30,
+        "prazo": "2026-11-28",
+        "frete": 2800
+      }
+    },
+    {
+      "id": 53,
+      "nivel": "dificil",
+      "tipo": "prazo relativo",
+      "texto": "Levar 25 toneladas de trigo de Corbélia para Ponta Grossa até sexta",
+      "gabarito": {
+        "produto": "Trigo",
+        "origem": "Corbélia",
+        "destino": "Ponta Grossa",
+        "peso_ton": 25,
+        "prazo": "2026-11-27",
+        "frete": null
+      }
+    },
+    {
+      "id": 54,
+      "nivel": "medio",
+      "texto": "Coleta em Missal, entrega em Foz do Iguaçu, 20 toneladas de soja, até 26/11/2026",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Missal",
+        "destino": "Foz do Iguaçu",
+        "peso_ton": 20,
+        "prazo": "2026-11-26",
+        "frete": null
+      }
+    },
+    {
+      "id": 55,
+      "nivel": "facil",
+      "texto": "Produto: Milho\nOrigem: Mamborê\nDestino: Maringá\nPeso: 33 t\nPrazo: 30/11/2026\nFrete: R$ 6.100,00",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Mamborê",
+        "destino": "Maringá",
+        "peso_ton": 33,
+        "prazo": "2026-11-30",
+        "frete": 6100
+      }
+    },
+    {
+      "id": 56,
+      "nivel": "dificil",
+      "tipo": "sem maiuscula",
+      "texto": "preciso levar 28 toneladas de soja de mamborê para maringá ate 25/11/2026",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Mamborê",
+        "destino": "Maringá",
+        "peso_ton": 28,
+        "prazo": "2026-11-25",
+        "frete": null
+      }
+    },
+    {
+      "id": 57,
+      "nivel": "dificil",
+      "tipo": "frete informal",
+      "texto": "Frete de 26 toneladas de arroz de Santa Helena para Cascavel até 02/12/2026, uns 4 mil",
+      "gabarito": {
+        "produto": "Arroz",
+        "origem": "Santa Helena",
+        "destino": "Cascavel",
+        "peso_ton": 26,
+        "prazo": "2026-12-02",
+        "frete": 4000
+      }
+    },
+    {
+      "id": 58,
+      "nivel": "dificil",
+      "tipo": "prazo relativo",
+      "texto": "Levar 30 toneladas de soja de Quatro Pontes para Paranaguá até dia 30",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Quatro Pontes",
+        "destino": "Paranaguá",
+        "peso_ton": 30,
+        "prazo": "2026-11-30",
+        "frete": null
+      }
+    }
+  ]
+}

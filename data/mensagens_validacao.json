@@ -1,0 +1,341 @@
+{
+  "_info": "CONJUNTO DE VALIDACAO: mensagens escritas DEPOIS de as regras estarem prontas e NAO usadas para ajusta-las. Mede a generalizacao. Simuladas pelo grupo/Claude (declarar no relatorio).",
+  "data_referencia": "2026-11-23",
+  "mensagens": [
+    {
+      "id": 1,
+      "nivel": "validacao",
+      "texto": "Bom dia, tem carreta pra pegar 27 ton de milho em Cascavel e deixar em Paranaguá? Preciso pra quinta",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Cascavel",
+        "destino": "Paranaguá",
+        "peso_ton": 27,
+        "prazo": "2026-11-26",
+        "frete": null
+      }
+    },
+    {
+      "id": 2,
+      "nivel": "validacao",
+      "texto": "Pessoal, urgente! 15 toneladas de fertilizante de Palotina pra Cascavel, tem que chegar amanhã cedo",
+      "gabarito": {
+        "produto": "Fertilizante",
+        "origem": "Palotina",
+        "destino": "Cascavel",
+        "peso_ton": 15,
+        "prazo": "2026-11-24",
+        "frete": null
+      }
+    },
+    {
+      "id": 3,
+      "nivel": "validacao",
+      "texto": "Boa tarde. Cotação para 33 t de soja Sorriso/MT x Paranaguá/PR, carregamento dia 3 de dezembro",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Sorriso",
+        "destino": "Paranaguá",
+        "peso_ton": 33,
+        "prazo": "2026-12-03",
+        "frete": null
+      }
+    },
+    {
+      "id": 4,
+      "nivel": "validacao",
+      "texto": "Frete R$ 12.500 para levar 36 toneladas de farelo de soja de Rondonópolis até Santos até 30/11",
+      "gabarito": {
+        "produto": "Farelo de Soja",
+        "origem": "Rondonópolis",
+        "destino": "Santos",
+        "peso_ton": 36,
+        "prazo": "2026-11-30",
+        "frete": 12500
+      }
+    },
+    {
+      "id": 5,
+      "nivel": "validacao",
+      "texto": "Tenho 1 carga de açúcar, 29 toneladas, Maringá para Paranaguá, entrega em 5 dias, pago 9 mil",
+      "gabarito": {
+        "produto": "Açúcar",
+        "origem": "Maringá",
+        "destino": "Paranaguá",
+        "peso_ton": 29,
+        "prazo": "2026-11-28",
+        "frete": 9000
+      }
+    },
+    {
+      "id": 6,
+      "nivel": "validacao",
+      "texto": "Preciso de um caminhão para 24t de arroz saindo de Pelotas com destino a Porto Alegre, prazo 01/12",
+      "gabarito": {
+        "produto": "Arroz",
+        "origem": "Pelotas",
+        "destino": "Porto Alegre",
+        "peso_ton": 24,
+        "prazo": "2026-12-01",
+        "frete": null
+      }
+    },
+    {
+      "id": 7,
+      "nivel": "validacao",
+      "tipo": "prazo relativo",
+      "texto": "Olá! Gostaria de transportar 18 toneladas de cimento de Curitiba para Florianópolis. Pode ser na segunda-feira?",
+      "gabarito": {
+        "produto": "Cimento",
+        "origem": "Curitiba",
+        "destino": "Florianópolis",
+        "peso_ton": 18,
+        "prazo": "2026-11-30",
+        "frete": null
+      }
+    },
+    {
+      "id": 8,
+      "nivel": "validacao",
+      "tipo": "formato livre",
+      "texto": "Frete urgente: Londrina → Curitiba, 31 t de café, hoje ainda!",
+      "gabarito": {
+        "produto": "Café",
+        "origem": "Londrina",
+        "destino": "Curitiba",
+        "peso_ton": 31,
+        "prazo": "2026-11-23",
+        "frete": null
+      }
+    },
+    {
+      "id": 9,
+      "nivel": "validacao",
+      "texto": "Carga de 22 toneladas de adubo, retirar em Toledo e entregar em Francisco Beltrão até quarta",
+      "gabarito": {
+        "produto": "Adubo",
+        "origem": "Toledo",
+        "destino": "Francisco Beltrão",
+        "peso_ton": 22,
+        "prazo": "2026-11-25",
+        "frete": null
+      }
+    },
+    {
+      "id": 10,
+      "nivel": "validacao",
+      "texto": "Boa noite, preciso levar uma carga de madeira, 25 ton, de Telêmaco Borba para Paranaguá até 12/12/2026. Valor 8.700,00",
+      "gabarito": {
+        "produto": "Madeira",
+        "origem": "Telêmaco Borba",
+        "destino": "Paranaguá",
+        "peso_ton": 25,
+        "prazo": "2026-12-12",
+        "frete": 8700
+      }
+    },
+    {
+      "id": 11,
+      "nivel": "validacao",
+      "texto": "Quanto fica o frete de 28 toneladas de milho de Campo Mourão para Maringá? Preciso até dia 27",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Campo Mourão",
+        "destino": "Maringá",
+        "peso_ton": 28,
+        "prazo": "2026-11-27",
+        "frete": null
+      }
+    },
+    {
+      "id": 12,
+      "nivel": "validacao",
+      "tipo": "formato livre",
+      "texto": "Pedido: 40 t calcário / Ponta Grossa p/ Guarapuava / até 02/12 / R$ 4.800",
+      "gabarito": {
+        "produto": "Calcário",
+        "origem": "Ponta Grossa",
+        "destino": "Guarapuava",
+        "peso_ton": 40,
+        "prazo": "2026-12-02",
+        "frete": 4800
+      }
+    },
+    {
+      "id": 13,
+      "nivel": "validacao",
+      "texto": "Tem 30 toneladas de soja esperando em Chapecó, precisa ir pro porto de Itajaí até a próxima sexta, pago uns 14 mil",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Chapecó",
+        "destino": "Itajaí",
+        "peso_ton": 30,
+        "prazo": "2026-11-27",
+        "frete": 14000
+      }
+    },
+    {
+      "id": 14,
+      "nivel": "validacao",
+      "tipo": "formato livre",
+      "texto": "olá, 20 toneladas de trigo de Guarapuava p Curitiba pra 28/11",
+      "gabarito": {
+        "produto": "Trigo",
+        "origem": "Guarapuava",
+        "destino": "Curitiba",
+        "peso_ton": 20,
+        "prazo": "2026-11-28",
+        "frete": null
+      }
+    },
+    {
+      "id": 15,
+      "nivel": "validacao",
+      "tipo": "prazo relativo",
+      "texto": "Preciso mandar 12 toneladas de ração de Cascavel para Medianeira ainda esta semana",
+      "gabarito": {
+        "produto": "Ração",
+        "origem": "Cascavel",
+        "destino": "Medianeira",
+        "peso_ton": 12,
+        "prazo": "2026-11-27",
+        "frete": null
+      }
+    },
+    {
+      "id": 16,
+      "nivel": "validacao",
+      "texto": "Boa tarde! 26t de soja, origem Cascavel, destino Paranaguá, valor combinado R$ 10.300,00, prazo 29/11/2026",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Cascavel",
+        "destino": "Paranaguá",
+        "peso_ton": 26,
+        "prazo": "2026-11-29",
+        "frete": 10300
+      }
+    },
+    {
+      "id": 17,
+      "nivel": "validacao",
+      "texto": "Sou da Cooperativa Agroeste. Preciso levar 35 toneladas de milho de Assis Chateaubriand para Paranaguá até 04/12/2026",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Assis Chateaubriand",
+        "destino": "Paranaguá",
+        "peso_ton": 35,
+        "prazo": "2026-12-04",
+        "frete": null
+      }
+    },
+    {
+      "id": 18,
+      "nivel": "validacao",
+      "tipo": "formato livre",
+      "texto": "Carga: 19 toneladas de aveia. Rota Passo Fundo - Porto Alegre. Quero entregar no dia 29/11.",
+      "gabarito": {
+        "produto": "Aveia",
+        "origem": "Passo Fundo",
+        "destino": "Porto Alegre",
+        "peso_ton": 19,
+        "prazo": "2026-11-29",
+        "frete": null
+      }
+    },
+    {
+      "id": 19,
+      "nivel": "validacao",
+      "texto": "Fechado: 30 toneladas de milho, Toledo para Foz do Iguaçu, R$ 5.900, saída segunda",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Toledo",
+        "destino": "Foz do Iguaçu",
+        "peso_ton": 30,
+        "prazo": "2026-11-30",
+        "frete": 5900
+      }
+    },
+    {
+      "id": 20,
+      "nivel": "validacao",
+      "texto": "Quero cotar 8 toneladas de sementes de Cascavel para Toledo",
+      "gabarito": {
+        "produto": "Sementes",
+        "origem": "Cascavel",
+        "destino": "Toledo",
+        "peso_ton": 8,
+        "prazo": null,
+        "frete": null
+      }
+    },
+    {
+      "id": 21,
+      "nivel": "validacao",
+      "tipo": "peso informal",
+      "texto": "Bom dia. Frete de 45 mil quilos de soja de Dourados para Paranaguá, até 06/12/2026",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Dourados",
+        "destino": "Paranaguá",
+        "peso_ton": 45,
+        "prazo": "2026-12-06",
+        "frete": null
+      }
+    },
+    {
+      "id": 22,
+      "nivel": "validacao",
+      "tipo": "formato livre",
+      "texto": "Pessoal, preciso urgente de caminhão: 28 ton milho, Cascavel>Toledo, hoje",
+      "gabarito": {
+        "produto": "Milho",
+        "origem": "Cascavel",
+        "destino": "Toledo",
+        "peso_ton": 28,
+        "prazo": "2026-11-23",
+        "frete": null
+      }
+    },
+    {
+      "id": 23,
+      "nivel": "validacao",
+      "texto": "Segue demanda: soja, 32 t, Londrina para Paranaguá, prazo 5/12, frete 11500",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Londrina",
+        "destino": "Paranaguá",
+        "peso_ton": 32,
+        "prazo": "2026-12-05",
+        "frete": 11500
+      }
+    },
+    {
+      "id": 24,
+      "nivel": "validacao",
+      "tipo": "prazo relativo",
+      "texto": "Pode me passar um valor para levar 17 toneladas de cimento de Joinville para Blumenau no fim da semana que vem?",
+      "gabarito": {
+        "produto": "Cimento",
+        "origem": "Joinville",
+        "destino": "Blumenau",
+        "peso_ton": 17,
+        "prazo": "2026-12-04",
+        "frete": null
+      }
+    },
+    {
+      "id": 25,
+      "nivel": "validacao",
+      "tipo": "frete informal",
+      "texto": "Preciso levar 25 toneladas de soja de Cascavel para Paranaguá, o frete pode ser por volta de 9 mil reais",
+      "gabarito": {
+        "produto": "Soja",
+        "origem": "Cascavel",
+        "destino": "Paranaguá",
+        "peso_ton": 25,
+        "prazo": null,
+        "frete": 9000
+      }
+    }
+  ]
+}
